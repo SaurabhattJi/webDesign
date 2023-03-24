@@ -23,8 +23,11 @@ const Form = () => {
                   <button>Get Started</button>
                 </p>
                 <div
-                  className="px-5 rounded-3"
-                  style={{ background: "transparent" }}
+                  className="px-5 py-2 rounded-3"
+                  style={{
+                    background: "transparent",
+                    backgroundColor: "#6c757d33",
+                  }}
                 >
                   <div class="row g-3">
                     <div class="col">
@@ -71,6 +74,7 @@ const Form = () => {
                     </div>
                   </div>
                 </div>
+                <button className="mx-auto my-2">Submit</button>
               </div>
             </div>
           </div>
