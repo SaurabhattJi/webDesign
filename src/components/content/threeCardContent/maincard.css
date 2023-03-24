@@ -1,0 +1,14 @@
+div.Cardhover {
+  background-color: rgba(220, 220, 220, 0.363);
+}
+.card {
+  transition: 0.7s;
+  cursor: grab;
+}
+.card:hover {
+  background-color: #38e54d;
+  color: white;
+}
+.card .card-body img {
+  height: fit-content;
+}

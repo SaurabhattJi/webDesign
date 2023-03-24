@@ -11,6 +11,9 @@ h5 {
 img {
   height: 90vh;
 }
+button.caro {
+  margin-top: 250px;
+}
 @media screen and (max-width: 997px) {
   h2 {
     font-weight: 600;
@@ -22,11 +25,28 @@ img {
 }
 @media screen and (max-width: 1024px) {
   img {
-    height: fit-content;
+    height: 65vh;
+  }
+  button.caro {
+    margin-top: 116px;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 375px) {
   img {
-    height: 30vh;
+    height: fit-content;
+  }
+
+  button.caro {
+    margin-top: 86px;
+  }
+}
+@media screen and (min-width: 2560px) {
+  img {
+    height: 60vh;
+  }
+}
+@media screen and (min-width: 1440px) {
+  img {
+    height: 80vh;
   }
 }

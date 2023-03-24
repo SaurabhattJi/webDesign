@@ -1,8 +1,8 @@
 import React from "react";
 import "./textfile.css";
 import Img from "../../../images/Code.jpg";
-import Sign from "../../../images/signature.png";
 import { TiTick } from "react-icons/ti";
+import Button from "../../button/Button";
 
 const Textfile = () => {
   return (
@@ -77,6 +77,9 @@ const Textfile = () => {
                 <span style={{ color: "black" }}>
                   <p>Complimeted by peer persespective and advice</p>
                 </span>
+              </div>
+              <div className="BUtton">
+                <Button text={"More About Us ➡️"} />
               </div>
             </div>
           </div>

@@ -18,7 +18,6 @@ div.hoverCard:hover {
   background-color: #38e54d;
   color: white;
   transform: scale(1.1);
-  z-index: 2;
 }
 div.Responsive {
   display: flex;
@@ -37,5 +36,8 @@ p {
   }
   p {
     font-size: 18px;
+  }
+  div.hoverCard {
+    margin-top: 2px;
   }
 }

@@ -1,0 +1,10 @@
+.File {
+  display: flex;
+}
+
+@media screen and (max-width: 744px) {
+  .File {
+    display: flex;
+    flex-direction: column;
+  }
+}
