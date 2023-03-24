@@ -11,17 +11,66 @@ const Form = () => {
           <div className="row">
             <div className="col-md-10 mx-auto">
               <div class="card-img-overlay">
-                <h6 class="card-title px-4 mt-4">
+                <h6 class="card-title">
                   Ensure High Availability of Your Service
                 </h6>
-                <h4 class="card-text px-4">
+                <h4 class="card-text">
                   Easy Solution for All <br /> Difficult IT Problems, Keep
                   <br /> Business Safe & Ensure <br />
                   High Availability.
                 </h4>
-                <p class="card-text py-3 px-4">
+                <p class="card-text">
                   <button>Get Started</button>
                 </p>
+                <div
+                  className="px-5 rounded-3"
+                  style={{ background: "transparent" }}
+                >
+                  <div class="row g-3">
+                    <div class="col">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="First name"
+                        aria-label="First name"
+                      />
+                    </div>
+                    <div class="col">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Last name"
+                        aria-label="Last name"
+                      />
+                    </div>
+                  </div>
+                  <div class="row g-3 py-3">
+                    <div class="col-sm-7">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="City"
+                        aria-label="City"
+                      />
+                    </div>
+                    <div class="col-sm ">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="State"
+                        aria-label="State"
+                      />
+                    </div>
+                    <div class="col-sm">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Zip"
+                        aria-label="Zip"
+                      />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

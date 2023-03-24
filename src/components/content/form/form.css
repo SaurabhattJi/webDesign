@@ -1,3 +1,7 @@
+.card .card-img-overlay {
+  margin: 140px;
+}
+
 @media screen and (max-width: 375px) {
   .card .card-img-overlay h6 {
     font-size: 10px;
@@ -6,3 +10,34 @@
     font-size: 12px;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .card .card-img-overlay {
+    margin: 80px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .card .card-img-overlay {
+    margin: 60px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card .card-img-overlay {
+    margin: 20px;
+  }
+}
+
+/* @media screen and (min-width: 1520px) {
+  .card .card-img-overlay {
+    margin: 300px;
+  }
+  .card .card-img-overlay h6 {
+    font-size: 30px;
+  }
+
+  .card .card-img-overlay h4 {
+    font-size: 60px;
+  }
+} */
