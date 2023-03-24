@@ -11,9 +11,9 @@ const MainCard = ({ texth3 }) => {
   return (
     <div className="Cardhover" style={{ padding: "25px 0" }}>
       <div className="cont container-fluid nav_bg  ">
-        <div className="row">
+        <div className="">
           <div className="col-md-10 mx-auto">
-            <div class="container row row-cols-1 row-cols-md-3 g-4">
+            <div class=" row row-cols-1 row-cols-md-3 g-4">
               <div class="col">
                 <div class="card h-400">
                   <div class="card-body">
@@ -65,7 +65,6 @@ const MainCard = ({ texth3 }) => {
                     </h1>
                     <h3>{texth3}</h3>
                     <p class="card-text">
-                      {" "}
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
                       little bit longer. This is a wider card with supporting
@@ -79,7 +78,6 @@ const MainCard = ({ texth3 }) => {
               </div>
             </div>
           </div>
-          ;
         </div>
       </div>
     </div>

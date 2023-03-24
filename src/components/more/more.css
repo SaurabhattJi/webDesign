@@ -28,7 +28,7 @@ button.caro {
     height: 65vh;
   }
   button.caro {
-    margin-top: 116px;
+    margin-top: 161px;
   }
 }
 @media screen and (max-width: 375px) {
@@ -39,10 +39,23 @@ button.caro {
   button.caro {
     margin-top: 86px;
   }
+  div.carousel-caption {
+    height: 192px;
+  }
+  div.carousel-caption h2 {
+    font-size: 16px;
+  }
+  div.carousel-caption h5 {
+    font-size: 10px;
+    margin-bottom: 0;
+  }
 }
 @media screen and (min-width: 2560px) {
   img {
     height: 60vh;
+  }
+  button.caro {
+    margin-top: 635px;
   }
 }
 @media screen and (min-width: 1440px) {

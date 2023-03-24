@@ -1,9 +1,9 @@
-.File {
+.res {
   display: flex;
 }
 
 @media screen and (max-width: 744px) {
-  .File {
+  .res {
     display: flex;
     flex-direction: column;
   }

@@ -6,6 +6,7 @@ import Textfile from "./textfile/Textfile";
 import SingleCard from "./singleCard/SingleCard";
 import MainCard from "./threeCardContent/MainCard";
 import Trusted from "./trusted/Trusted";
+import Form from "./form/Form";
 
 const Content = () => {
   return (
@@ -18,6 +19,7 @@ const Content = () => {
       <MainCard texth3={"Cyber Security Service"} />
       <MainCard texth3={"Cloud Computing Service"} />
       <Trusted />
+      <Form />
     </>
   );
 };

@@ -12,7 +12,7 @@ const Navbar = () => {
             <nav class="navbar navbar-expand-lg bg-light ">
               <div class="container-fluid mx-auto">
                 <a class="navbar-brand " href="#">
-                  🅰️🅱️
+                  🅰️🅱
                 </a>
                 <button
                   class="navbar-toggler"

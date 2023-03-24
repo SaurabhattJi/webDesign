@@ -9,7 +9,7 @@ const Card = () => {
       <div className="  container-fluid nav_bg my-10 ">
         <div className="d-flex row ">
           <div className="mainDiva d-flex col-md-10 mx-auto">
-            <div class="hoverCard card my-3 mx-2">
+            <div class="hoverCard card my-3 mx-2 rounded-0">
               <div class="mainCard card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
@@ -19,7 +19,7 @@ const Card = () => {
                 <BsArrowRightCircle />
               </div>
             </div>
-            <div class="hoverCard card my-3 mx-2">
+            <div class="hoverCard card my-3 mx-2  rounded-0">
               <div class="mainCard card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
@@ -30,7 +30,7 @@ const Card = () => {
                 <BsArrowRightCircle />
               </div>
             </div>
-            <div class="hoverCard card my-3 mx-2">
+            <div class="hoverCard card my-3 mx-2  rounded-0">
               <div class="mainCard card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
@@ -42,7 +42,7 @@ const Card = () => {
               </div>
             </div>
 
-            <div class="hoverCard card my-3 mx-2">
+            <div class="hoverCard card my-3 mx-2 rounded-0">
               <div class="mainCard card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
