@@ -19,7 +19,14 @@ const Trusted = () => {
               </h6>
             </div>
             <div className="d-flex mx-auto my-3 flex-1 px-4">
-              <Button text={"Find Your Solution"} />
+              <button
+                style={{
+                  background: "transparent",
+                  backgroundColor: "blue",
+                }}
+              >
+                Find Your Solution
+              </button>
             </div>
             <h4 className="mx-auto my-2">Explore All Services</h4>
             <h3 className=" mx-auto">

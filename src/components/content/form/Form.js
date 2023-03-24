@@ -74,7 +74,16 @@ const Form = () => {
                     </div>
                   </div>
                 </div>
-                <button className="mx-auto my-2">Submit</button>
+                <button
+                  style={{
+                    background: "transparent",
+                    backgroundColor: "blue",
+                    borderRadius: "5px",
+                  }}
+                  className="mx-auto my-2"
+                >
+                  Submit
+                </button>
               </div>
             </div>
           </div>
