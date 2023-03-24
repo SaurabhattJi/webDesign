@@ -1,0 +1,41 @@
+.mainCard {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+span.icon {
+  margin: 10px 25px;
+  font-size: 20px;
+}
+div.circle {
+  cursor: pointer;
+}
+div.hoverCard {
+  transition: 0.7s;
+  margin-left: 10px;
+}
+div.hoverCard:hover {
+  background-color: #38e54d;
+  color: white;
+  transform: scale(1.1);
+  z-index: 2;
+}
+div.Responsive {
+  display: flex;
+}
+p {
+  font-size: 15px;
+}
+@media screen and (max-width: 997px) {
+  div.mainDiva {
+    display: flex;
+    flex-direction: column;
+  }
+  div.Responsive {
+    display: flex;
+    flex-direction: column;
+  }
+  p {
+    font-size: 18px;
+  }
+}

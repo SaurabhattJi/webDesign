@@ -1,0 +1,34 @@
+div.mainNav {
+  margin-right: 150px;
+}
+
+a {
+  transition: 0.3s;
+}
+a.navborder:hover {
+  transform: scale(1.1);
+  z-index: 2;
+  border-bottom: 2px solid #38e54d;
+}
+span.mysearch {
+  transition: 0.3s;
+  cursor: pointer;
+}
+span.mysearch:hover {
+  transform: scale(1.1);
+}
+svg {
+  margin: 16px 30px;
+}
+span.mar {
+  margin-left: 15px;
+}
+@media screen and (max-width: 997px) {
+  span svg {
+    margin: 0;
+    padding-top: 2px;
+  }
+  span.mar {
+    margin-left: 0;
+  }
+}

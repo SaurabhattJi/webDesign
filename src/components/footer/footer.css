@@ -1,0 +1,7 @@
+.footer {
+  background-color: rgba(0, 0, 0, 0.838);
+  color: white;
+}
+.container {
+  display: flex;
+}

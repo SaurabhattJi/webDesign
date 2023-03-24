@@ -1,0 +1,32 @@
+h2 {
+  font-weight: 900;
+  font-family: sans-serif;
+  text-align: start;
+  font-size: 46px;
+}
+h5 {
+  font-size: 18px;
+  text-align: start;
+}
+img {
+  height: 90vh;
+}
+@media screen and (max-width: 997px) {
+  h2 {
+    font-weight: 600;
+    font-size: 25px;
+  }
+  img {
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 1024px) {
+  img {
+    height: fit-content;
+  }
+}
+@media screen and (max-width: 425px) {
+  img {
+    height: 30vh;
+  }
+}

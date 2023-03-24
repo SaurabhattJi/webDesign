@@ -1,0 +1,28 @@
+button {
+  width: 10rem;
+  color: white;
+  background-color: #38e54d;
+  border: none;
+  font-size: 15px;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+button:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+span.mar {
+  margin-right: 10px;
+}
+@media screen and (max-width: 997px) {
+  button {
+    width: 6rem;
+    font-size: 10px;
+  }
+  span.mar {
+    margin-right: 0;
+  }
+}
