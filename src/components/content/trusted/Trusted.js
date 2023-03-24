@@ -21,7 +21,7 @@ const Trusted = () => {
             <div className="d-flex mx-auto my-3 flex-1 px-4">
               <Button text={"Find Your Solution"} />
             </div>
-            <h6 className="mx-auto my-2">Explore All Services</h6>
+            <h4 className="mx-auto my-2">Explore All Services</h4>
             <h3 className=" mx-auto">
               <BsArrowRightCircle />
             </h3>

@@ -15,7 +15,7 @@ const MainCard = ({ texth3 }) => {
           <div className="col-md-10 mx-auto">
             <div class=" row row-cols-1 row-cols-md-3 g-4">
               <div class="col">
-                <div class="card h-400">
+                <div className="bgren card  h-400">
                   <div class="card-body">
                     <img src={Img} alt="" width="100%" />
                     <h1 class="card-title">
@@ -35,7 +35,7 @@ const MainCard = ({ texth3 }) => {
                 </div>
               </div>
               <div class="col">
-                <div class="card h-100">
+                <div class="bgren card h-100">
                   <div class="card-body">
                     <img src={Bg} alt="" width="100%" />
                     <h1 class="card-title">
@@ -58,7 +58,7 @@ const MainCard = ({ texth3 }) => {
 
               <div class="col">
                 <div class="card h-100">
-                  <div class="card-body">
+                  <div class="bgren card-body">
                     <img src={Tcd} alt="" width="100%" />
                     <h1 class="card-title">
                       <SiNintendonetwork />
