@@ -7,18 +7,29 @@ span.icon {
   margin: 10px 25px;
   font-size: 20px;
 }
-div.circle {
+span.arrow {
   cursor: pointer;
+  font-size: 25px;
+  transition: 0.3s;
+}
+span.arrow:hover {
+  transform: scale(1.2);
+}
+div.circle {
+  /* background-color: #38e54d; */
+  /* width: 100%; */
+  cursor: pointer;
+  /* border: 1px solid black; */
 }
 div.hoverCard {
   transition: 0.7s;
   margin-left: 10px;
 }
-div.hoverCard:hover {
+/* div.hoverCard:hover {
   background-color: #38e54d;
   color: white;
   transform: scale(1.1);
-}
+} */
 div.Responsive {
   display: flex;
 }

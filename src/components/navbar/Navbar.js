@@ -15,6 +15,7 @@ const Navbar = () => {
                   🅰️🅱
                 </a>
                 <button
+                  style={{ boxShadow: "none" }}
                   class="navbar-toggler"
                   type="button"
                   data-bs-toggle="collapse"
@@ -23,7 +24,7 @@ const Navbar = () => {
                   aria-expanded="false"
                   aria-label="Toggle navigation"
                 >
-                  <span class="navbar-toggler-icon"></span>
+                  <span class="navbar-toggler-icon box-shadow-0"></span>
                 </button>
                 <div
                   className="mainNav collapse ms-150 navbar-collapse"
@@ -62,10 +63,18 @@ const Navbar = () => {
                     <span className=" mar mx-15 my-20">
                       <Button text={"Reaquest a Ques"} />
                     </span>
-                    <span className="mysearch">
-                      <BsSearch />
-                    </span>
                   </ul>
+                  <form class="d-flex" role="search">
+                    <input
+                      class="form-control me-2"
+                      type="search"
+                      placeholder="Search"
+                      aria-label="Search"
+                    />
+                    <button class="btn btn-outline-primary" type="submit">
+                      Search
+                    </button>
+                  </form>
                 </div>
               </div>
             </nav>

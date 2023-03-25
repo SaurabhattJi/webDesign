@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <More />
       <Content />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

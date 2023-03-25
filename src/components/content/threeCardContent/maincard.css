@@ -12,3 +12,8 @@ div.Cardhover {
 .card .card-body img {
   height: fit-content;
 }
+@media screen and (min-width: 768px) {
+  h3.dumtext {
+    font-size: 20px;
+  }
+}

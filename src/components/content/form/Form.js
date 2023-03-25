@@ -1,91 +1,120 @@
 import React from "react";
-import Maps from "../../../images/map.jpg";
 import "./form.css";
 
 const Form = () => {
   return (
     <>
-      <div class="card text-bg-dark rounded-0">
-        <img src={Maps} class="card-img" alt="..." />
-        <div className="container-fluid nav_bg ">
-          <div className="row">
-            <div className="col-md-10 mx-auto">
-              <div class="card-img-overlay">
-                <h6 class="card-title">
-                  Ensure High Availability of Your Service
-                </h6>
-                <h4 class="card-text">
-                  Easy Solution for All <br /> Difficult IT Problems, Keep
-                  <br /> Business Safe & Ensure <br />
-                  High Availability.
-                </h4>
-                <p class="card-text">
-                  <button>Get Started</button>
-                </p>
-                <div
-                  className="px-5 py-2 rounded-3"
-                  style={{
-                    background: "transparent",
-                    backgroundColor: "#6c757d33",
-                  }}
-                >
-                  <div class="row g-3">
-                    <div class="col">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="First name"
-                        aria-label="First name"
-                      />
-                    </div>
-                    <div class="col">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Last name"
-                        aria-label="Last name"
-                      />
-                    </div>
-                  </div>
-                  <div class="row g-3 py-3">
-                    <div class="col-sm-7">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="City"
-                        aria-label="City"
-                      />
-                    </div>
-                    <div class="col-sm ">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="State"
-                        aria-label="State"
-                      />
-                    </div>
-                    <div class="col-sm">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Zip"
-                        aria-label="Zip"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <button
-                  style={{
-                    background: "transparent",
-                    backgroundColor: "blue",
-                    borderRadius: "5px",
-                  }}
-                  className="mx-auto my-2"
-                >
-                  Submit
-                </button>
+      <div className="formCont container-fluid nav_bg">
+        <h3 className="pt-2" style={{ color: "white", textAlign: "center" }}>
+          About You
+        </h3>
+        <div className="col-md-10 pt-3 mx-auto">
+          <div className="container-fluid mx-10">
+            <div class="row g-3 mb-3">
+              <div class="col">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Full name"
+                  aria-label="Full name"
+                  required={true}
+                />
+              </div>
+              <div class="col">
+                <input
+                  type="number"
+                  class="form-control"
+                  placeholder="Contact number"
+                  aria-label="Contact number"
+                  required={true}
+                />
               </div>
             </div>
+            <form class="row g-3">
+              <div class="col-md-6">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail4"
+                  placeholder="Your Email"
+                  required={true}
+                />
+              </div>
+              <div class="col-md-6">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword4"
+                  placeholder="Your Password"
+                  required={true}
+                />
+              </div>
+              <div class="col-12">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputAddress"
+                  placeholder="Your Current Address"
+                  required={true}
+                />
+              </div>
+              <div class="col-12">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputAddress2"
+                  placeholder="Your Permanent Address"
+                />
+              </div>
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputCity"
+                  placeholder="City"
+                />
+              </div>
+              <div class="col-md-4">
+                <select id="inputState" class="form-select">
+                  <option selected>Select State</option>
+                  <option>Delhi</option>
+                  <option>Mumbai</option>
+                  <option>Uttarakhand</option>
+                  <option>Himanchal</option>
+                  <option>Panjab</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputZip"
+                  placeholder="Zip"
+                  required={true}
+                />
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="gridCheck"
+                  />
+                  <label
+                    class="form-check-label"
+                    for="gridCheck"
+                    style={{ color: "white" }}
+                  >
+                    Terms & Conditions
+                  </label>
+                </div>
+              </div>
+              <div class="col-12 mx-auto mb-3">
+                <button type="submit" class="btn btn-success">
+                  Sign in
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>

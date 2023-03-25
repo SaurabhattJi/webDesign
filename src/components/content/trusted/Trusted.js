@@ -1,6 +1,5 @@
 import React from "react";
 import "./trusted.css";
-import Button from "../../button/Button";
 import { BsArrowRightCircle } from "react-icons/bs";
 
 const Trusted = () => {

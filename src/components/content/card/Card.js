@@ -16,7 +16,9 @@ const Card = () => {
                   This is a wider card with supporting text below as a natural
                   lead-in to additional contentbelow as a natural lead-in to
                 </p>
-                <BsArrowRightCircle />
+                <span className="arrow">
+                  <BsArrowRightCircle />
+                </span>
               </div>
             </div>
             <div class="hoverCard card my-3 mx-2  rounded-0">
@@ -27,7 +29,9 @@ const Card = () => {
                   lead-in to additional contentbelow as a natural lead-in to
                   additional content
                 </p>
-                <BsArrowRightCircle />
+                <span className="arrow">
+                  <BsArrowRightCircle />
+                </span>
               </div>
             </div>
             <div class="hoverCard card my-3 mx-2  rounded-0">
@@ -38,7 +42,9 @@ const Card = () => {
                   lead-in to additional content This is a wider card with
                   supporting text content
                 </p>
-                <BsArrowRightCircle />
+                <span className="arrow">
+                  <BsArrowRightCircle />
+                </span>
               </div>
             </div>
 
@@ -50,7 +56,7 @@ const Card = () => {
                   Obcaecati delectus saeplor sit amet, conbelow as a natural
                   lead-in to additional content
                 </p>
-                <div className="circle" style={{ display: "flex" }}>
+                <div className="circle">
                   <Button text={"Find Your Solutions"} />
                 </div>
               </div>

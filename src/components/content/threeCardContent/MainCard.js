@@ -9,10 +9,10 @@ import Tcd from "../../../images/jgh.jpg";
 
 const MainCard = ({ texth3 }) => {
   return (
-    <div className="Cardhover" style={{ padding: "25px 0" }}>
+    <div className="Cardhover py-3">
       <div className="cont container-fluid nav_bg  ">
-        <div className="">
-          <div className="col-md-10 mx-auto">
+        <div className="mx-3 my-1">
+          <div className="mx-auto">
             <div class=" row row-cols-1 row-cols-md-3 g-4">
               <div class="col">
                 <div className="bgren card  h-400">
@@ -21,7 +21,7 @@ const MainCard = ({ texth3 }) => {
                     <h1 class="card-title">
                       <TbNetwork />
                     </h1>
-                    <h3>{texth3}</h3>
+                    <h4 className="dumtext">{texth3}</h4>
                     <p class="card-text h-20">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
@@ -41,7 +41,7 @@ const MainCard = ({ texth3 }) => {
                     <h1 class="card-title">
                       <IoMdGitNetwork />
                     </h1>
-                    <h3>{texth3}</h3>
+                    <h4>{texth3}</h4>
                     <p class="card-text">
                       {" "}
                       This is a wider card with supporting text below as a
@@ -63,7 +63,7 @@ const MainCard = ({ texth3 }) => {
                     <h1 class="card-title">
                       <SiNintendonetwork />
                     </h1>
-                    <h3>{texth3}</h3>
+                    <h4>{texth3}</h4>
                     <p class="card-text">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
