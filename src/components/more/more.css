@@ -28,7 +28,7 @@ button.caro {
     height: 65vh;
   }
   button.caro {
-    margin-top: 161px;
+    margin-top: 216px;
   }
 }
 @media screen and (max-width: 375px) {
@@ -50,16 +50,19 @@ button.caro {
     margin-bottom: 0;
   }
 }
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 2540px) {
   img {
     height: 60vh;
   }
   button.caro {
-    margin-top: 635px;
+    margin-top: 835px;
   }
 }
 @media screen and (min-width: 1440px) {
   img {
     height: 85vh;
+  }
+  div.carousel-caption {
+    bottom: 13.25rem;
   }
 }

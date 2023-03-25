@@ -6,33 +6,33 @@ const Footer = () => {
   return (
     <>
       <div className="bg-dark " style={{ color: "white" }}>
-        <footer className="py-5">
+        <footer className="main py-5">
           <div className="row me-0">
             <div className="col-6 col-md-2 mb-3 mx-5">
               <h5>Section</h5>
               <ul className="nav flex-column">
                 <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">
+                  <a href="/" className="nav-link p-0 text-body-secondary">
                     Home
                   </a>
                 </li>
                 <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">
+                  <a href="/" className="nav-link p-0 text-body-secondary">
                     Features
                   </a>
                 </li>
                 <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">
+                  <a href="/" className="nav-link p-0 text-body-secondary">
                     Pricing
                   </a>
                 </li>
                 <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">
+                  <a href="/" className="nav-link p-0 text-body-secondary">
                     FAQs
                   </a>
                 </li>
                 <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">
+                  <a href="/" className="nav-link p-0 text-body-secondary">
                     About
                   </a>
                 </li>
@@ -41,7 +41,7 @@ const Footer = () => {
 
             <div className="col-md-5 offset-md-1 mb-3">
               <form>
-                <h5>Subscribe to our newsletter</h5>
+                <h5>Subscribe to our Newsletter</h5>
                 <p>Monthly digest of what's new and exciting from us.</p>
                 <div className="d-flex flex-column flex-sm-row w-100 gap-2">
                   <label for="newsletter1" className="visually-hidden">
@@ -55,7 +55,7 @@ const Footer = () => {
                     required={true}
                   />
                   <button
-                    className="btn btn-primary"
+                    className="btn btn-primary m-auto"
                     type="submit"
                     fdprocessedid="xgr0ek"
                   >
@@ -66,15 +66,16 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 mx-5 border-top">
-            <p>© 2023 Company, Inc. All rights reserved.</p>
-            <ul className="list-unstyled d-flex">
+          <div className="respon d-flex  flex-column flex-sm-row justify-content-between py-4 my-4 mx-5 border-top">
+            <p style={{ textAlign: "center" }}>
+              © 2023 Company, Inc. All rights reserved.
+            </p>
+            <ul
+              style={{ placeContent: "center" }}
+              className="list-unstyled d-flex"
+            >
               <li className="ms-3">
-                <a
-                  className="link-body-emphasis"
-                  href="https://www.instagram.com/saurabh__bhatt_/"
-                  target="_blank"
-                >
+                <a className="link-body-emphasis" href="/">
                   <FaInstagram />
                 </a>
               </li>
@@ -83,6 +84,7 @@ const Footer = () => {
                   className="link-body-emphasis"
                   href="https://github.com/SaurabhattJi"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <FaGithub />
                 </a>
@@ -93,6 +95,7 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
+            <p style={{ textAlign: "center" }}>Abhiwan Technology Pvt Ltd.</p>
           </div>
         </footer>
       </div>

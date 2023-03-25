@@ -9,11 +9,11 @@ import Tcd from "../../../images/jgh.jpg";
 
 const MainCard = ({ texth3 }) => {
   return (
-    <div className="Cardhover py-3">
-      <div className="cont container-fluid nav_bg  ">
-        <div className="mx-3 my-1">
-          <div className="mx-auto">
-            <div className=" row row-cols-1 row-cols-md-3 g-4">
+    <div className="Cardhover cont d-flex  container-fluid nav_bg  ">
+      <div className="d-flex mx-3 my-1">
+        <div className="d-flex mx-auto">
+          <div className=" d-flex py-3">
+            <div className="row d-flex  row-cols-1 row-cols-sm- row-cols-md-3 g-4">
               <div className="col">
                 <div className="bgren card  h-400">
                   <div className="card-body">
@@ -28,8 +28,6 @@ const MainCard = ({ texth3 }) => {
                       little bit longer. This is a wider card with supporting
                       text below as a natural lead-in to additional content.
                       This content is a little bit longer. This is a wider card
-                      with supporting text below as a natural lead-in to
-                      additional content. This content is a little bit longer.
                     </p>
                   </div>
                 </div>
@@ -49,8 +47,6 @@ const MainCard = ({ texth3 }) => {
                       little bit longer. This is a wider card with supporting
                       text below as a natural lead-in to additional content.
                       This content is a little bit longer. This is a wider card
-                      with supporting text below as a natural lead-in to
-                      additional content. This content is a little bit longer.
                     </p>
                   </div>
                 </div>
@@ -70,8 +66,6 @@ const MainCard = ({ texth3 }) => {
                       little bit longer. This is a wider card with supporting
                       text below as a natural lead-in to additional content.
                       This content is a little bit longer. This is a wider card
-                      with supporting text below as a natural lead-in to
-                      additional content. This content is a little bit longer.
                     </p>
                   </div>
                 </div>

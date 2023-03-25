@@ -16,9 +16,9 @@ const Card = () => {
                   This is a wider card with supporting text below as a natural
                   lead-in to additional contentbelow as a natural lead-in to
                 </p>
-                <span className="arrow">
+                <div className="arrow m-0">
                   <BsArrowRightCircle />
-                </span>
+                </div>
               </div>
             </div>
             <div className="hoverCard card my-3 mx-2  rounded-0">

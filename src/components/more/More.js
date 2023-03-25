@@ -12,7 +12,7 @@ const More = () => {
       data-bs-ride="false"
     >
       <div className="carousel-inner">
-        <div className="carousel-item active">
+        <div className="carousel-item active" data-bs-interval="2000">
           <img src={Img} className="d-block w-100" alt="..." />
           <div className="carousel-caption d-md-block">
             <h2>
@@ -31,7 +31,7 @@ const More = () => {
             </div>
           </div>
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item" data-bs-interval="2000">
           <img src={Code} className="d-block w-100" alt="..." />
           <div
             style={{ borderBottom: "250px" }}

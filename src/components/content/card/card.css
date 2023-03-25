@@ -7,13 +7,14 @@ span.icon {
   margin: 10px 25px;
   font-size: 20px;
 }
-span.arrow {
+.mainCard .arrow {
   cursor: pointer;
-  font-size: 25px;
-  transition: 0.3s;
+  font-size: 35px;
+  transition: 0.2s;
 }
-span.arrow:hover {
-  transform: scale(1.2);
+.mainCard .arrow:hover {
+  color: #38e54d;
+  font-size: 25px;
 }
 div.circle {
   /* background-color: #38e54d; */

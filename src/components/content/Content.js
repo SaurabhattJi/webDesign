@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "./card/Card";
 import "./content.css";
-
 import Textfile from "./textfile/Textfile";
 import SingleCard from "./singleCard/SingleCard";
 import MainCard from "./threeCardContent/MainCard";
@@ -18,7 +17,7 @@ const Content = () => {
       <SingleCard
         greentext={"Worldwide Service & Local Expertise"}
         blacktext={
-          "Our technology allows you to offer the latest software to your posssible customers "
+          "Our technology allows you to offer the latest software to your posssible customers. "
         }
       />
       <MainCard texth3={"IT Management & Service"} />
@@ -26,12 +25,14 @@ const Content = () => {
       <MainCard texth3={"Cloud Computing Service"} />
       <Trusted />
       <Form />
-      <SingleCard
-        greentext={"〃1500 satisfied customers around the globe"}
-        blacktext={
-          "If your are looking for a rewarding career and the chance to make an impact. you've come to right place. WE will transform your business through our techniques. "
-        }
-      />
+      <div className="Cardhover">
+        <SingleCard
+          greentext={":-) 1500 satisfied customers around the globe"}
+          blacktext={
+            "If your are looking for a rewarding career and the chance to make an impact. you've come to right place. WE will transform your business through our techniques. "
+          }
+        />
+      </div>
       <Success />
     </>
   );

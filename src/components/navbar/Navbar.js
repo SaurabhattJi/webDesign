@@ -11,7 +11,7 @@ const Navbar = () => {
           <div className="col-md-10 mx-auto">
             <nav className="navbar navbar-expand-lg bg-light ">
               <div className="container-fluid mx-auto">
-                <a className="navbar-brand " href="#">
+                <a className="navbar-brand " href="/">
                   🅰️🅱
                 </a>
                 <button
@@ -66,12 +66,17 @@ const Navbar = () => {
                   </ul>
                   <form className="d-flex" role="search">
                     <input
-                      className="form-control me-2"
+                      className=" form-control me-2"
                       type="search"
-                      placeholder="Search"
+                      style={{ width: "150px" }}
+                      placeholder="Search ..."
                       aria-label="Search"
                     />
-                    <button className="btn btn-outline-primary" type="submit">
+                    <button
+                      style={{ width: "100px" }}
+                      className="btn btn-outline-primary w-30"
+                      type="submit"
+                    >
                       Search
                     </button>
                   </form>

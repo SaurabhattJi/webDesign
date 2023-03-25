@@ -16,7 +16,13 @@ const Success = () => {
               <h6 style={{ textAlign: "center", fontWeight: "600" }}>
                 Latest case studies
               </h6>
-              <h3 style={{ textAlign: "center", paddingBottom: "25px" }}>
+              <h3
+                style={{
+                  textAlign: "center",
+                  fontWeight: "800",
+                  paddingBottom: "25px",
+                }}
+              >
                 Success Stories
               </h3>
               <div className="cont container-fluid nav_bg  ">

@@ -2,6 +2,10 @@ div.mainNav {
   margin-right: 150px;
 }
 
+input.NavIn {
+  width: 150px;
+}
+
 a {
   transition: 0.3s;
 }
@@ -17,9 +21,7 @@ span.mysearch {
 span.mysearch:hover {
   transform: scale(1.1);
 }
-svg {
-  margin: 16px 30px;
-}
+
 span.mar {
   margin-left: 15px;
 }
