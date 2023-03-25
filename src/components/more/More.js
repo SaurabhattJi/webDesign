@@ -8,13 +8,13 @@ const More = () => {
   return (
     <div
       id="carouselExampleCaptions"
-      class="carousel slide"
+      className="carousel slide"
       data-bs-ride="false"
     >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src={Img} class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-md-block">
+      <div className="carousel-inner">
+        <div className="carousel-item active">
+          <img src={Img} className="d-block w-100" alt="..." />
+          <div className="carousel-caption d-md-block">
             <h2>
               <strong>
                 Latest Software
@@ -31,11 +31,11 @@ const More = () => {
             </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src={Code} class="d-block w-100" alt="..." />
+        <div className="carousel-item">
+          <img src={Code} className="d-block w-100" alt="..." />
           <div
             style={{ borderBottom: "250px" }}
-            class="carousel-caption  d-md-block"
+            className="carousel-caption  d-md-block"
           >
             <h2>
               <strong>
@@ -60,8 +60,8 @@ const More = () => {
         data-bs-target="#carouselExampleCaptions"
         data-bs-slide="prev"
       >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Previous</span>
       </button>
       <button
         className="caro carousel-control-next"
@@ -69,8 +69,8 @@ const More = () => {
         data-bs-target="#carouselExampleCaptions"
         data-bs-slide="next"
       >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
+        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Next</span>
       </button>
     </div>
   );

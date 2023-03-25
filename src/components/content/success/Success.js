@@ -22,25 +22,25 @@ const Success = () => {
               <div className="cont container-fluid nav_bg  ">
                 <div className="mx-3 my-1">
                   <div className="mx-auto">
-                    <div class=" row row-cols-1 row-cols-md-3 g-4">
-                      <div class="col">
+                    <div className=" row row-cols-1 row-cols-md-3 g-4">
+                      <div className="col">
                         <div className=" card ">
-                          <div class="card-body p-0">
+                          <div className="card-body p-0">
                             <img src={Code} alt="" width="100%" />
                           </div>
                         </div>
                       </div>
-                      <div class="col">
-                        <div class=" card ">
-                          <div class="card-body p-0">
+                      <div className="col">
+                        <div className=" card ">
+                          <div className="card-body p-0">
                             <img src={Img} alt="" width="100%" />
                           </div>
                         </div>
                       </div>
 
-                      <div class="col">
-                        <div class="card ">
-                          <div class="card-body p-0">
+                      <div className="col">
+                        <div className="card ">
+                          <div className="card-body p-0">
                             <img src={Abc} alt="" width="100%" />
                           </div>
                         </div>

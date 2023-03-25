@@ -13,16 +13,16 @@ const MainCard = ({ texth3 }) => {
       <div className="cont container-fluid nav_bg  ">
         <div className="mx-3 my-1">
           <div className="mx-auto">
-            <div class=" row row-cols-1 row-cols-md-3 g-4">
-              <div class="col">
+            <div className=" row row-cols-1 row-cols-md-3 g-4">
+              <div className="col">
                 <div className="bgren card  h-400">
-                  <div class="card-body">
+                  <div className="card-body">
                     <img src={Img} alt="" width="100%" />
-                    <h1 class="card-title">
+                    <h1 className="card-title">
                       <TbNetwork />
                     </h1>
                     <h4 className="dumtext">{texth3}</h4>
-                    <p class="card-text h-20">
+                    <p className="card-text h-20">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
                       little bit longer. This is a wider card with supporting
@@ -34,15 +34,15 @@ const MainCard = ({ texth3 }) => {
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="bgren card h-100">
-                  <div class="card-body">
+              <div className="col">
+                <div className="bgren card h-100">
+                  <div className="card-body">
                     <img src={Bg} alt="" width="100%" />
-                    <h1 class="card-title">
+                    <h1 className="card-title">
                       <IoMdGitNetwork />
                     </h1>
                     <h4>{texth3}</h4>
-                    <p class="card-text">
+                    <p className="card-text">
                       {" "}
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
@@ -56,15 +56,15 @@ const MainCard = ({ texth3 }) => {
                 </div>
               </div>
 
-              <div class="col">
-                <div class="card h-100">
-                  <div class="bgren card-body">
+              <div className="col">
+                <div className="card h-100">
+                  <div className="bgren card-body">
                     <img src={Tcd} alt="" width="100%" />
-                    <h1 class="card-title">
+                    <h1 className="card-title">
                       <SiNintendonetwork />
                     </h1>
                     <h4>{texth3}</h4>
-                    <p class="card-text">
+                    <p className="card-text">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
                       little bit longer. This is a wider card with supporting

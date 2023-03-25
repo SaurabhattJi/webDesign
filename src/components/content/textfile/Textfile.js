@@ -15,11 +15,11 @@ const Textfile = () => {
           <div className="row">
             <div className="col-md-10 mx-auto">
               <div className="firstDiv">
-                <div class="card-body">
-                  <p class="card-text">
+                <div className="card-body">
+                  <p className="card-text">
                     Ensure high availablity of your service
                   </p>
-                  <h5 class="mine card-title">
+                  <h5 className="mine card-title">
                     Keep Your Business Safe &
                     <br /> Ensure High Availablity
                   </h5>
@@ -27,7 +27,7 @@ const Textfile = () => {
                   <img
                     src={Img}
                     style={{ marginTop: "45px", height: "40vh" }}
-                    class="card-img-top"
+                    className="card-img-top"
                     alt="..."
                     width="25px"
                   />

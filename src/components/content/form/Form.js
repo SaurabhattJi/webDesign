@@ -10,72 +10,72 @@ const Form = () => {
         </h3>
         <div className="col-md-10 pt-3 mx-auto">
           <div className="container-fluid mx-10">
-            <div class="row g-3 mb-3">
-              <div class="col">
+            <div className="row g-3 mb-3">
+              <div className="col">
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Full name"
                   aria-label="Full name"
                   required={true}
                 />
               </div>
-              <div class="col">
+              <div className="col">
                 <input
                   type="number"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Contact number"
                   aria-label="Contact number"
                   required={true}
                 />
               </div>
             </div>
-            <form class="row g-3">
-              <div class="col-md-6">
+            <form className="row g-3">
+              <div className="col-md-6">
                 <input
                   type="email"
-                  class="form-control"
+                  className="form-control"
                   id="inputEmail4"
                   placeholder="Your Email"
                   required={true}
                 />
               </div>
-              <div class="col-md-6">
+              <div className="col-md-6">
                 <input
                   type="password"
-                  class="form-control"
+                  className="form-control"
                   id="inputPassword4"
                   placeholder="Your Password"
                   required={true}
                 />
               </div>
-              <div class="col-12">
+              <div className="col-12">
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   id="inputAddress"
                   placeholder="Your Current Address"
                   required={true}
                 />
               </div>
-              <div class="col-12">
+              <div className="col-12">
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   id="inputAddress2"
                   placeholder="Your Permanent Address"
                 />
               </div>
-              <div class="col-md-6">
+              <div className="col-md-6">
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   id="inputCity"
                   placeholder="City"
                 />
               </div>
-              <div class="col-md-4">
-                <select id="inputState" class="form-select">
+              <div className="col-md-4">
+                <select id="inputState" className="form-select">
                   <option selected>Select State</option>
                   <option>Delhi</option>
                   <option>Mumbai</option>
@@ -84,24 +84,24 @@ const Form = () => {
                   <option>Panjab</option>
                 </select>
               </div>
-              <div class="col-md-2">
+              <div className="col-md-2">
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   id="inputZip"
                   placeholder="Zip"
                   required={true}
                 />
               </div>
-              <div class="col-12">
-                <div class="form-check">
+              <div className="col-12">
+                <div className="form-check">
                   <input
-                    class="form-check-input"
+                    className="form-check-input"
                     type="checkbox"
                     id="gridCheck"
                   />
                   <label
-                    class="form-check-label"
+                    className="form-check-label"
                     for="gridCheck"
                     style={{ color: "white" }}
                   >
@@ -109,8 +109,8 @@ const Form = () => {
                   </label>
                 </div>
               </div>
-              <div class="col-12 mx-auto mb-3">
-                <button type="submit" class="btn btn-success">
+              <div className="col-12 mx-auto mb-3">
+                <button type="submit" className="btn btn-success">
                   Sign in
                 </button>
               </div>

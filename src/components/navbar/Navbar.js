@@ -1,5 +1,5 @@
 import React from "react";
-import { BsSearch } from "react-icons/bs";
+
 import Button from "../button/Button";
 import "./navbar.css";
 
@@ -9,14 +9,14 @@ const Navbar = () => {
       <div className="container-fluid nav_bg ">
         <div className="row">
           <div className="col-md-10 mx-auto">
-            <nav class="navbar navbar-expand-lg bg-light ">
-              <div class="container-fluid mx-auto">
-                <a class="navbar-brand " href="#">
+            <nav className="navbar navbar-expand-lg bg-light ">
+              <div className="container-fluid mx-auto">
+                <a className="navbar-brand " href="#">
                   🅰️🅱
                 </a>
                 <button
                   style={{ boxShadow: "none" }}
-                  class="navbar-toggler"
+                  className="navbar-toggler"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#navbarSupportedContent"
@@ -24,39 +24,39 @@ const Navbar = () => {
                   aria-expanded="false"
                   aria-label="Toggle navigation"
                 >
-                  <span class="navbar-toggler-icon box-shadow-0"></span>
+                  <span className="navbar-toggler-icon box-shadow-0"></span>
                 </button>
                 <div
                   className="mainNav collapse ms-150 navbar-collapse"
                   id="navbarSupportedContent"
                 >
-                  <ul class="navbar-nav mx-auto px-auto mb-2 mx-lg-0 mb-lg-0">
-                    <li class="nav-item">
+                  <ul className="navbar-nav mx-auto px-auto mb-2 mx-lg-0 mb-lg-0">
+                    <li className="nav-item">
                       <a
-                        class="nav-link active navborder"
+                        className="nav-link active navborder"
                         aria-current="page"
-                        href="#"
+                        href="/"
                       >
                         Home
                       </a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link active navborder" href="#">
+                    <li className="nav-item">
+                      <a className="nav-link active navborder" href="/">
                         Company
                       </a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link  active navborder" href="#">
+                    <li className="nav-item">
+                      <a className="nav-link  active navborder" href="/">
                         Contact
                       </a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link active navborder" href="#">
+                    <li className="nav-item">
+                      <a className="nav-link active navborder" href="/">
                         News&Media
                       </a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link active navborder" href="#">
+                    <li className="nav-item">
+                      <a className="nav-link active navborder" href="/">
                         Features
                       </a>
                     </li>
@@ -64,14 +64,14 @@ const Navbar = () => {
                       <Button text={"Reaquest a Ques"} />
                     </span>
                   </ul>
-                  <form class="d-flex" role="search">
+                  <form className="d-flex" role="search">
                     <input
-                      class="form-control me-2"
+                      className="form-control me-2"
                       type="search"
                       placeholder="Search"
                       aria-label="Search"
                     />
-                    <button class="btn btn-outline-primary" type="submit">
+                    <button className="btn btn-outline-primary" type="submit">
                       Search
                     </button>
                   </form>
