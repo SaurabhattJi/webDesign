@@ -1,0 +1,6 @@
+div img.Imghov {
+  transition: 0.5s;
+}
+div img.Imghov:hover {
+  transform: scale(1.1);
+}

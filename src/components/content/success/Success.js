@@ -2,6 +2,7 @@ import React from "react";
 import Code from "../../../images/Code.jpg";
 import Img from "../../../images/backimg.jpg";
 import Abc from "../../../images/map.jpg";
+import "./success.css";
 
 const Success = () => {
   return (
@@ -32,14 +33,24 @@ const Success = () => {
                       <div className="col">
                         <div className=" card ">
                           <div className="card-body p-0">
-                            <img src={Code} alt="" width="100%" />
+                            <img
+                              className="Imghov"
+                              src={Code}
+                              alt=""
+                              width="100%"
+                            />
                           </div>
                         </div>
                       </div>
                       <div className="col">
                         <div className=" card ">
                           <div className="card-body p-0">
-                            <img src={Img} alt="" width="100%" />
+                            <img
+                              className="Imghov"
+                              src={Img}
+                              alt=""
+                              width="100%"
+                            />
                           </div>
                         </div>
                       </div>
@@ -47,7 +58,12 @@ const Success = () => {
                       <div className="col">
                         <div className="card ">
                           <div className="card-body p-0">
-                            <img src={Abc} alt="" width="100%" />
+                            <img
+                              className="Imghov"
+                              src={Abc}
+                              alt=""
+                              width="100%"
+                            />
                           </div>
                         </div>
                       </div>
