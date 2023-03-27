@@ -1,7 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import "./form.css";
 
 const Form = () => {
+  const [state, setState] = useState({
+    name: "",
+    number: "",
+    email: "",
+    password: "",
+    address: "",
+    state: "",
+    city: "",
+    zip: "",
+  });
+
+  function handle(e) {
+    const newData = { ...state };
+    newData[e.target.id] = e.target.value;
+    setState(newData);
+    console.log(newData);
+  }
   return (
     <>
       <div className="formCont container-fluid nav_bg">
@@ -14,6 +31,9 @@ const Form = () => {
               <div className="col">
                 <input
                   type="text"
+                  onChange={(e) => handle(e)}
+                  value={state.name}
+                  id="name"
                   className="form-control"
                   placeholder="Full name"
                   aria-label="Full name"
@@ -23,6 +43,9 @@ const Form = () => {
               <div className="col">
                 <input
                   type="number"
+                  onChange={(e) => handle(e)}
+                  value={state.number}
+                  id="number"
                   className="form-control"
                   placeholder="Contact number"
                   aria-label="Contact number"
@@ -34,8 +57,10 @@ const Form = () => {
               <div className="col-md-6">
                 <input
                   type="email"
+                  onChange={(e) => handle(e)}
+                  value={state.email}
+                  id="email"
                   className="form-control"
-                  id="inputEmail4"
                   placeholder="Your Email"
                   required={true}
                 />
@@ -44,7 +69,9 @@ const Form = () => {
                 <input
                   type="password"
                   className="form-control"
-                  id="inputPassword4"
+                  onChange={(e) => handle(e)}
+                  value={state.password}
+                  id="password"
                   placeholder="Your Password"
                   required={true}
                 />
@@ -52,8 +79,11 @@ const Form = () => {
               <div className="col-12">
                 <input
                   type="text"
+                  onChange={(e) => handle(e)}
+                  value={state.address}
+                  id="address"
                   className="form-control"
-                  id="inputAddress"
+                  // id="inputAddress"
                   placeholder="Your Current Address"
                   required={true}
                 />
@@ -69,26 +99,34 @@ const Form = () => {
               <div className="col-md-6">
                 <input
                   type="text"
+                  onChange={(e) => handle(e)}
+                  value={state.city}
+                  id="city"
                   className="form-control"
-                  id="inputCity"
+                  // id="inputCity"
                   placeholder="City"
                 />
-              </div>
-              <div className="col-md-4">
-                <select id="inputState" className="form-select">
-                  <option selected>Select State</option>
-                  <option>Delhi</option>
-                  <option>Mumbai</option>
-                  <option>Uttarakhand</option>
-                  <option>Himanchal</option>
-                  <option>Panjab</option>
-                </select>
+              </div>{" "}
+              <div className="col-md-2">
+                <input
+                  type="text"
+                  onChange={(e) => handle(e)}
+                  value={state.state}
+                  id="state"
+                  className="form-control"
+                  // id="inputZip"
+                  placeholder="State"
+                  required={true}
+                />
               </div>
               <div className="col-md-2">
                 <input
                   type="text"
+                  onChange={(e) => handle(e)}
+                  value={state.zip}
+                  id="zip"
                   className="form-control"
-                  id="inputZip"
+                  // id="inputZip"
                   placeholder="Zip"
                   required={true}
                 />
@@ -110,9 +148,7 @@ const Form = () => {
                 </div>
               </div>
               <div className="col-12 mx-auto mb-3">
-                <button type="submit" className="btn btn-success">
-                  Sign in
-                </button>
+                <button className="btn btn-primary">Sign in</button>
               </div>
             </form>
           </div>

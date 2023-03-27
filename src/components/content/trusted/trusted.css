@@ -1,6 +1,13 @@
 .res {
   display: flex;
 }
+span.Aro {
+  transition: 0.3s;
+  cursor: pointer;
+}
+span.Aro:hover {
+  font-size: 35px;
+}
 
 @media screen and (max-width: 744px) {
   .res {

@@ -21,16 +21,18 @@ const Trusted = () => {
               <button
                 style={{
                   background: "transparent",
-                  backgroundColor: "blue",
+                  backgroundColor: "#0d6efd",
                 }}
               >
                 Find Your Solution
               </button>
             </div>
-            <h4 className="mx-auto my-2">Explore All Services</h4>
-            <h3 className=" mx-auto">
-              <BsArrowRightCircle />
-            </h3>
+            <h4 className="mx-auto my-2">
+              Explore All Services
+              <span className="Aro">
+                <BsArrowRightCircle />
+              </span>
+            </h4>
           </div>
         </div>
       </div>
